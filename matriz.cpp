@@ -37,5 +37,32 @@ int main()
         }
     }
 
+	char operacao;
+    
+    cin >> operacao;
+    
+    for (int i = 0; i < x; ++i){
+        for (int j = 0; j < x; ++j){
+            
+            if (operacao == 'a'){
+                
+                cout << adicao[i][j] << " ";
+            }
+            
+            if (operacao == 's'){
+                
+                cout << subtracao[i][j] << " ";
+            }
+            
+            if (operacao == 'm'){
+                
+                cout << multiplicacao[i][j] << " ";
+            }
+        }
+        
+        cout << endl;
+    }
+	
+
 	return 0;
 }
