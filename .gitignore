@@ -1,0 +1,19 @@
+# Arquivos compilados
+*.o
+*.exe
+*.out
+main
+vetor
+matriz
+
+# Arquivos de log
+*.log
+
+# Backups
+*~
+
+# Makefiles gerados automaticamente (se for o caso)
+Makefile~
+
+# Pastas temporárias
+build/
