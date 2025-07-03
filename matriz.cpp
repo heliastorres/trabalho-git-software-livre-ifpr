@@ -22,7 +22,20 @@ int main()
             
             cin >> matriz2[i][j];
             
-            adicao[i][j] = matriz[i][j] + matriz2[i][j];
+		adicao[i][j] = matriz[i][j] + matriz2[i][j];
+		subtracao[i][j] = matriz[i][j] - matriz2[i][j];
+		multiplicacao[i][j] = 0;
+        }
+    }
+    
+    for (int i = 0; i < x; ++i){
+        for (int j = 0; j < x; ++j){
+            for (int k = 0; k < x; ++k){
+                
+                multiplicacao[i][j] += matriz[i][k] * matriz2[k][j];
+            }
+        }
+    }
 
 	return 0;
 }
