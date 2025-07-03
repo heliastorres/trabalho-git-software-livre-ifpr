@@ -2,7 +2,7 @@
 
 **Integrantes:**  
 - Helias Torres  
-- (nome do colega, se em dupla)
+- Yukie Guedes Mocochinski
 
 ## Programas
 
