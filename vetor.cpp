@@ -14,6 +14,13 @@ int main()
 
         cin >> vetor[i];
 
+	if (i == 0 or vetor[i] > maior){
+            
+            maior = vetor[i];
+        }
+    }
+    
+    cout << maior << endl;
 
      return 0;
 }
