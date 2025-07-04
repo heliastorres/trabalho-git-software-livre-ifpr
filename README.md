@@ -14,6 +14,29 @@
 
 ```bash
 make all     # compila todos
-make primo   # apenas o primo
+make primo   # apenas o primo 
 make vetor   # apenas o vetor
-make matriz  # apenas o matriz
+make matriz  # apenas o matriz 
+```
+#Estrutura do Trabalho
+##git-software-livre-ifpr/
+``
+* `matriz.cpp`
+* `primo.cpp`
+* `vetor.cpp`
+* `Makefile`
+* `README.md`
+* `scripts/`
+    * `generate-test-primo.sh`
+    * `generate-test-vetor.sh`
+    * `generate-test-matriz.sh`
+* `testes/`
+    * `primo/`
+        * `entrada1.txt`
+        * `saida1.txt`
+    * `vetor/`
+        * `entrada1.txt`
+        * `saida1.txt`
+    * `matriz/`
+        * `entrada1.txt`
+        * `saida1.txt`
